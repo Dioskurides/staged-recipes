@@ -1,5 +1,5 @@
 {% set name = "polymerase-tm" %}
-{% set version = "2.1.1" %}
+{% set version = "2.1.2" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 3d9caa6a68c46815ae9b9032a688d343ac7f5add5acd8c8bd84854af448675869
+  sha256: 606642d2e341c6df564c8d6f5837d3bd2904ca22b41cae45a63e6fffee5104565
 
 build:
   noarch: python
